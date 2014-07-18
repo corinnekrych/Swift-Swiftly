@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		480D5C47197973FC00FC8283 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; };
 		48217F071976CC1B0005655E /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; };
 		4865E505196FF3F900311CA4 /* Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuple.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -17,6 +18,7 @@
 			children = (
 				4865E505196FF3F900311CA4 /* Tuple.playground */,
 				48217F071976CC1B0005655E /* Dictionary.playground */,
+				480D5C47197973FC00FC8283 /* Optionals.playground */,
 			);
 			sourceTree = "<group>";
 		};
