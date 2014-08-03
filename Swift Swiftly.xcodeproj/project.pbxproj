@@ -9,7 +9,13 @@
 /* Begin PBXFileReference section */
 		480D5C47197973FC00FC8283 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; };
 		48217F071976CC1B0005655E /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; };
+		4841532E198ACB69004F9D75 /* modelToJson.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = modelToJson.playground; sourceTree = "<group>"; };
 		4865E505196FF3F900311CA4 /* Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuple.playground; sourceTree = "<group>"; };
+		489FC5B2198ABD730039A34C /* JSON.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSON.playground; sourceTree = "<group>"; };
+		489FC5B3198ABD800039A34C /* optionals_string_interpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = optionals_string_interpolation.playground; sourceTree = "<group>"; };
+		489FC5B4198ABD8B0039A34C /* Swizzling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swizzling.playground; sourceTree = "<group>"; };
+		489FC5B5198ABDB30039A34C /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
+		489FC5B6198AC0DF0039A34C /* reflect.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reflect.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -19,6 +25,12 @@
 				4865E505196FF3F900311CA4 /* Tuple.playground */,
 				48217F071976CC1B0005655E /* Dictionary.playground */,
 				480D5C47197973FC00FC8283 /* Optionals.playground */,
+				489FC5B2198ABD730039A34C /* JSON.playground */,
+				489FC5B3198ABD800039A34C /* optionals_string_interpolation.playground */,
+				489FC5B4198ABD8B0039A34C /* Swizzling.playground */,
+				489FC5B5198ABDB30039A34C /* test.playground */,
+				489FC5B6198AC0DF0039A34C /* reflect.playground */,
+				4841532E198ACB69004F9D75 /* modelToJson.playground */,
 			);
 			sourceTree = "<group>";
 		};
