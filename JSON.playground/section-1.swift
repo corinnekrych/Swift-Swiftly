@@ -1,5 +1,22 @@
 import UIKit
 
+//StringLiteralConvertible
+final class MyDoubleDouble : FloatLiteralConvertible {
+    var double : Double
+    
+    init(value: Double) {
+        double = value * 2
+    }
+    
+    class func convertFromFloatLiteral(value: Double) -> MyDoubleDouble {
+        return MyDoubleDouble(value: value)
+    }
+}
+
+let double = 2.0                        // double has a value of 2.0
+let myDouble : MyDoubleDouble = 2.0
+
+
 var jsonNonOpt:NSDictionary = [
     "stat": "ok",
     "vegetables": [
@@ -19,14 +36,15 @@ var jsonNonOpt:NSDictionary = [
         ]
     ]
 ]
-
+let veggies: AnyObject? = jsonNonOpt["vegtables"]
+veggies
 let dict = jsonNonOpt as NSDictionary
-let vegetables = dict["vegetables"] as [String: AnyObject!]
-let vegetablesItems : AnyObject! = vegetables["beans"]
-let collection = vegetablesItems as [AnyObject!]
+let vegetables = dict["vegetables"] as [String: AnyObject]
+let vegetablesItems : AnyObject = vegetables["beans"]!
+let collection = vegetablesItems as [AnyObject]
 
 for info : AnyObject! in collection {
-    let vegInfo = info as [String: AnyObject!]
+    let vegInfo = info as [String: AnyObject]
     let id : AnyObject! = vegInfo["id"]
     let name : AnyObject! = vegInfo["name"]
     let isSummerVegetable : AnyObject! = vegInfo["isSummerVegetable"]

@@ -16,6 +16,8 @@
 		489FC5B4198ABD8B0039A34C /* Swizzling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swizzling.playground; sourceTree = "<group>"; };
 		489FC5B5198ABDB30039A34C /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		489FC5B6198AC0DF0039A34C /* reflect.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reflect.playground; sourceTree = "<group>"; };
+		48B6B11C19A7649C0011B482 /* chriseidhof.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = chriseidhof.playground; sourceTree = "<group>"; };
+		48E61F5319AA7E41003F85DD /* operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = operator.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -31,6 +33,8 @@
 				489FC5B5198ABDB30039A34C /* test.playground */,
 				489FC5B6198AC0DF0039A34C /* reflect.playground */,
 				4841532E198ACB69004F9D75 /* modelToJson.playground */,
+				48B6B11C19A7649C0011B482 /* chriseidhof.playground */,
+				48E61F5319AA7E41003F85DD /* operator.playground */,
 			);
 			sourceTree = "<group>";
 		};
