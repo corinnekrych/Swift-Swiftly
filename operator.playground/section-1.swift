@@ -41,7 +41,7 @@ minusArray2 = [1, 2, 3] - [0, -2, 4]
 
 // to resolve this semantics issue, let's go custom operator ⊕ and ⊖
 
-infix operator  ⊕ { associativity left precedence 150 }
+infix operator  ⊕ { associativity left precedence 140 }
 func ⊕(left: [Int], right: [Int]) -> [Int] {
     var sum = [Int](count: left.count, repeatedValue: 0)
     assert(left.count == right.count, "vector of same length only")
@@ -51,7 +51,7 @@ func ⊕(left: [Int], right: [Int]) -> [Int] {
     return sum
 }
 
-infix operator  ⊖ { associativity left precedence 150 }
+infix operator  ⊖ { associativity left precedence 140 }
 func ⊖(left: [Int], right: [Int]) -> [Int] {
     var minus = [Int](count: left.count, repeatedValue: 0)
     assert(left.count == right.count, "vector of same length only")
@@ -64,11 +64,11 @@ var sumArray3 = [1, 2, 3] ⊕ [1, 2, 3]
 var minusArray3 = [1, 2, 3] ⊖ [1, 2, 3]
 minusArray3 = [1, 2, 3] ⊖ [0, -2, 4]
 
-infix operator  ⊖= { associativity left precedence 150 }
+infix operator  ⊖= { associativity left precedence 140 }
 func ⊖=(inout left: [Int], right: [Int]) {
     left = left ⊖ right
 }
-infix operator  ⊕= { associativity left precedence 150 }
+infix operator  ⊕= { associativity left precedence 140 }
 func ⊕=(inout left: [Int], right: [Int]) {
     left = left ⊕ right
 }
