@@ -9,7 +9,10 @@
 /* Begin PBXFileReference section */
 		480D5C47197973FC00FC8283 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; };
 		48217F071976CC1B0005655E /* Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Dictionary.playground; sourceTree = "<group>"; };
+		483304A819AF583A002F8DA9 /* MixedArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MixedArray.playground; sourceTree = "<group>"; };
+		483304A919AF59CB002F8DA9 /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; };
 		4841532E198ACB69004F9D75 /* modelToJson.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = modelToJson.playground; sourceTree = "<group>"; };
+		485E21FC19AC7B84001881BC /* operator4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = operator4.playground; sourceTree = "<group>"; };
 		4865E505196FF3F900311CA4 /* Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuple.playground; sourceTree = "<group>"; };
 		489FC5B2198ABD730039A34C /* JSON.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSON.playground; sourceTree = "<group>"; };
 		489FC5B3198ABD800039A34C /* optionals_string_interpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = optionals_string_interpolation.playground; sourceTree = "<group>"; };
@@ -17,24 +20,33 @@
 		489FC5B5198ABDB30039A34C /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; };
 		489FC5B6198AC0DF0039A34C /* reflect.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = reflect.playground; sourceTree = "<group>"; };
 		48B6B11C19A7649C0011B482 /* chriseidhof.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = chriseidhof.playground; sourceTree = "<group>"; };
-		48E61F5319AA7E41003F85DD /* operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = operator.playground; sourceTree = "<group>"; };
+		48CD52E019B0DD30008D0694 /* nil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = nil.playground; sourceTree = "<group>"; };
+		48CD52E119B11021008D0694 /* operator3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = operator3.playground; sourceTree = "<group>"; };
+		48E61F5319AA7E41003F85DD /* operator1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = operator1.playground; sourceTree = "<group>"; };
+		48ECBB3019AFCA6100B53059 /* operator2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = operator2.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		4810FB141951EB4D000905DB = {
 			isa = PBXGroup;
 			children = (
+				48CD52E019B0DD30008D0694 /* nil.playground */,
 				4865E505196FF3F900311CA4 /* Tuple.playground */,
 				48217F071976CC1B0005655E /* Dictionary.playground */,
 				480D5C47197973FC00FC8283 /* Optionals.playground */,
 				489FC5B2198ABD730039A34C /* JSON.playground */,
 				489FC5B3198ABD800039A34C /* optionals_string_interpolation.playground */,
 				489FC5B4198ABD8B0039A34C /* Swizzling.playground */,
+				483304A819AF583A002F8DA9 /* MixedArray.playground */,
+				483304A919AF59CB002F8DA9 /* Generics.playground */,
 				489FC5B5198ABDB30039A34C /* test.playground */,
 				489FC5B6198AC0DF0039A34C /* reflect.playground */,
 				4841532E198ACB69004F9D75 /* modelToJson.playground */,
 				48B6B11C19A7649C0011B482 /* chriseidhof.playground */,
-				48E61F5319AA7E41003F85DD /* operator.playground */,
+				48E61F5319AA7E41003F85DD /* operator1.playground */,
+				48ECBB3019AFCA6100B53059 /* operator2.playground */,
+				48CD52E119B11021008D0694 /* operator3.playground */,
+				485E21FC19AC7B84001881BC /* operator4.playground */,
 			);
 			sourceTree = "<group>";
 		};

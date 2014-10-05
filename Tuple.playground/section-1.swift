@@ -1,4 +1,4 @@
-import Cocoa
+import UIKit
 
 
 // Tuples are groups of values combined into a single, compound value. Very often use as 
@@ -6,7 +6,6 @@ import Cocoa
 
 // Defining a Tuple
 // Use parenthesis around the comma-delimited list of values without specifying types, so it relies on inference
-
 let httpError404 = (404, "Not found")
 let someOtherTuple = (Double(100), Bool(false))
 let someOtherTuple2:(Double, Bool) = (100, false)
@@ -65,14 +64,14 @@ var myArray = [String]()
 //var array1 = [(String, String)]()
 
 var array1: [(String, String)] = []
-array1 +=  ("1", "2")
+array1 +=  [("1", "2")]
 array1
 
 var array2:[(String, String)] = []
 var tuple = ("fddfd", "fdfdf")
 // Error in playgroung: Missing argument #2 in call
 //array2.append(tuple)
-array2 += tuple
+array2 += [tuple]
 array2
 
 // Correct in playgroung
